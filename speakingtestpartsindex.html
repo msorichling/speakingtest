@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speaking Test Hub - Class 10</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .hub-container {
+            text-align: center;
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            max-width: 400px;
+            width: 100%;
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 30px;
+            font-size: 24px;
+        }
+
+        .button-list {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .btn {
+            display: block;
+            padding: 15px;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 18px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+
+        /* Farben für die verschiedenen Parts */
+        .btn-part1 { background-color: #0056b3; }
+        .btn-part2 { background-color: #27ae60; }
+        .btn-part3 { background-color: #f39c12; }
+        
+        /* Farbe für das PDF / Hilfe */
+        .btn-help { 
+            background-color: #e74c3c; 
+            margin-top: 10px;
+            border: 2px dashed rgba(255,255,255,0.5);
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+
+<div class="hub-container">
+    <h1>Speaking Test Training</h1>
+    
+    <div class="button-list">
+        <a href="https://msorichling.github.io/speakingtestpart1/" class="btn btn-part1">Speaking Test Part 1</a>
+        <a href="https://msorichling.github.io/speakingtestpart2/" class="btn btn-part2">Speaking Test Part 2</a>
+        <a href="https://msorichling.github.io/speakingtestpart3/" class="btn btn-part3">Speaking Test Part 3</a>
+        
+        <a href="speakingtesthelp.pdf" target="_blank" class="btn btn-help">Speaking Test Help (PDF)</a>
+    </div>
+
+    <div class="footer">
+        Prepare for your Class 10 Exam
+    </div>
+</div>
+
+</body>
+</html>
